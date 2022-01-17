@@ -1,5 +1,5 @@
 {
-  "name": "react-complete-guide",
+  "name": "udemy-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
   }
 }
